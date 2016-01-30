@@ -1,0 +1,966 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"th",
+				"thing	Thing"
+			],
+			[
+				"GetMou",
+				"GetMouseButtonUp(int button)	bool"
+			],
+			[
+				"Re",
+				"Remove(T item)	bool"
+			],
+			[
+				"T",
+				"Thing	Thing"
+			],
+			[
+				"a",
+				"Add(T item)	void"
+			],
+			[
+				"end",
+				"endregion	endregion"
+			],
+			[
+				"ch",
+				"GetChild(int index)	Transform"
+			],
+			[
+				"Thr",
+				"ThrowStuff()	void"
+			],
+			[
+				"Pla",
+				"Player	Player"
+			],
+			[
+				"PL",
+				"Player	Player"
+			],
+			[
+				"tr",
+				"true	true"
+			],
+			[
+				"geTmous",
+				"GetMouseButtonDown(int button)	bool"
+			],
+			[
+				"di",
+				"fixedDeltaTime	float { get; set; }"
+			],
+			[
+				"fi",
+				"fixedDeltaTime	float { get; set; }"
+			],
+			[
+				"is",
+				"isPaused	bool"
+			],
+			[
+				"Load",
+				"LoadLevel(string name)	void"
+			],
+			[
+				"Uni",
+				"UnityEngine	UnityEngine"
+			],
+			[
+				"Comb",
+				"CheckCombo(string key)	void"
+			],
+			[
+				"combo",
+				"comboIndex	int"
+			],
+			[
+				"com",
+				"comboIndex	int"
+			],
+			[
+				"Aud",
+				"AudioSource()	AudioSource()"
+			],
+			[
+				"P",
+				"Play()	void"
+			],
+			[
+				"audios",
+				"AudioSource	AudioSource"
+			],
+			[
+				"Audios",
+				"AudioSource	AudioSource"
+			],
+			[
+				"IEnu",
+				"IEnumerator	IEnumerator"
+			],
+			[
+				"Start",
+				"StartCoroutine(IEnumerator routine)	Coroutine"
+			],
+			[
+				"Star",
+				"StartCoroutine(IEnumerator routine)	Coroutine"
+			],
+			[
+				"IEn",
+				"IEnumerator	IEnumerator"
+			],
+			[
+				"Random",
+				"RandomVector()	Vector3"
+			],
+			[
+				"Ve",
+				"Vector3()	Vector3()"
+			],
+			[
+				"getkeyd",
+				"GetKeyDown(KeyCode key)	bool"
+			],
+			[
+				"Ad",
+				"AddForce(Vector3 force)	void"
+			],
+			[
+				"GetKeyd",
+				"GetKeyDown(KeyCode key)	bool"
+			],
+			[
+				"Getkeyu",
+				"GetKeyUp(KeyCode key)	bool"
+			],
+			[
+				"GetK",
+				"GetKeyDown(KeyCode key)	bool"
+			],
+			[
+				"for",
+				"foreach	foreach"
+			],
+			[
+				"enem",
+				"enemiesOnScene	List<Enemy>"
+			],
+			[
+				"VEcot",
+				"Vector3()	Vector3()"
+			],
+			[
+				"rats",
+				"ratsGen	RatsGeneration"
+			],
+			[
+				"gam",
+				"gameObject	GameObject { get; }"
+			],
+			[
+				"nor",
+				"Normalize()	void"
+			],
+			[
+				"cam",
+				"camForward	Vector3"
+			],
+			[
+				"Animat",
+				"Animator	Animator"
+			],
+			[
+				"pr",
+				"progress	float { get; }"
+			],
+			[
+				"Getcom",
+				"GetComponent<T>()	T"
+			],
+			[
+				"Ien",
+				"IEnumerator	IEnumerator"
+			],
+			[
+				"Set",
+				"SetBool(string name, bool value)	void"
+			],
+			[
+				"Playdea",
+				"PlayDeadOnce()	IEnumerator"
+			],
+			[
+				"GetComponen",
+				"GetComponent<T>()	T"
+			],
+			[
+				"Get",
+				"GetButton(string buttonName)	bool"
+			],
+			[
+				"Stop",
+				"StopCoroutine(IEnumerator routine)	void"
+			],
+			[
+				"alar",
+				"alarmScript	AlarmTrap"
+			],
+			[
+				"Destr",
+				"DestroyAfterSeconds(GameObject obj)	IEnumerator"
+			],
+			[
+				"IE",
+				"IEnumerator	IEnumerator"
+			],
+			[
+				"ta",
+				"Tags()	Tags()"
+			],
+			[
+				"Alarm",
+				"AlarmTrap	AlarmTrap"
+			],
+			[
+				"LE",
+				"left	Vector3 { get; }"
+			],
+			[
+				"Vec",
+				"Vector3(float x, float y, float z)	Vector3(float x, float y, float z)"
+			],
+			[
+				"rota",
+				"Rotate(Vector3 eulerAngles)	void"
+			],
+			[
+				"Veto3",
+				"Vector3(float x, float y, float z)	Vector3(float x, float y, float z)"
+			],
+			[
+				"Vector",
+				"Vector3	Vector3"
+			],
+			[
+				"Seriali",
+				"SerializeField	SerializeField"
+			],
+			[
+				"VEctor",
+				"Vector3(float x, float y)	Vector3(float x, float y)"
+			],
+			[
+				"t",
+				"transform	Transform { get; }"
+			],
+			[
+				"Vecto",
+				"Vector3	Vector3"
+			],
+			[
+				"GetCompo",
+				"GetComponent<T>()	T"
+			],
+			[
+				"Fin",
+				"FindGameObjectsWithTag(string tag)	GameObject[]"
+			],
+			[
+				"Game",
+				"GameObject	GameObject"
+			],
+			[
+				"Dist",
+				"DistanceToMoveOnOffset()	Vector2"
+			],
+			[
+				"y",
+				"yScreenPercentage	float"
+			],
+			[
+				"dista",
+				"DistanceToMoveOnOffset()	void"
+			],
+			[
+				"Scre",
+				"ScreenToWorldPoint(Vector3 position)	Vector3"
+			],
+			[
+				"Mat",
+				"Mathf	Mathf"
+			],
+			[
+				"v",
+				"Vector3()	Vector3()"
+			],
+			[
+				"Scree",
+				"ScreenToViewportPoint(Vector3 position)	Vector3"
+			],
+			[
+				"camera",
+				"cameraTarget	Vector3"
+			],
+			[
+				"Player",
+				"PlayerMove"
+			],
+			[
+				"movedire",
+				"moveDirection	[class]"
+			],
+			[
+				"Playermo",
+				"PlayerMove2"
+			],
+			[
+				"walk",
+				"walkSpeed"
+			],
+			[
+				"raycast",
+				"raycast	Physics.*(ray, hitInfo, distance, layerMask)"
+			],
+			[
+				"hitbox",
+				"attackHitbox"
+			],
+			[
+				"decrease",
+				"decreaseFactor"
+			],
+			[
+				"wait",
+				"waitForTimer"
+			],
+			[
+				"deltapo",
+				"deltaPos"
+			],
+			[
+				"OnMouse",
+				"OnMouseDown	MonoBehaviour.*()"
+			],
+			[
+				"touchs",
+				"touchScript"
+			],
+			[
+				"teth",
+				"tetha2"
+			],
+			[
+				"mindi",
+				"minIndex"
+			],
+			[
+				"minDis",
+				"minDist"
+			],
+			[
+				"direccion",
+				"direccionVertex"
+			],
+			[
+				"vec",
+				"vector3	*(x, y, z)"
+			],
+			[
+				"Debu",
+				"Debug.Log	*(message)"
+			],
+			[
+				"ver",
+				"vertices	Cloth.*"
+			],
+			[
+				"Getvert",
+				"GetVerticesFromObject"
+			],
+			[
+				"teht",
+				"tetha1"
+			],
+			[
+				"sight",
+				"sight3"
+			],
+			[
+				"tet",
+				"tetha2"
+			],
+			[
+				"tetha",
+				"tetha1"
+			],
+			[
+				"Steal",
+				"Steal"
+			],
+			[
+				"OnTr",
+				"OnTriggerEnter	Collider.*(?)"
+			],
+			[
+				"rooms",
+				"rooms_03"
+			],
+			[
+				"room",
+				"rooms_01"
+			],
+			[
+				"lastrom",
+				"lastRoomY-1"
+			],
+			[
+				"last",
+				"lastRoomY"
+			],
+			[
+				"lastroo",
+				"lastRoomX"
+			],
+			[
+				"level",
+				"levelGrid"
+			],
+			[
+				"delta",
+				"deltaTime	Time.*"
+			],
+			[
+				"chase",
+				"chaseFinished"
+			],
+			[
+				"lastplaye",
+				"lastPlayerSighting"
+			],
+			[
+				"Ignore",
+				"IgnoreLayerCollision	Physics.*(layer1, layer2, ignore)"
+			],
+			[
+				"Enem",
+				"EnemyAI"
+			],
+			[
+				"sqrM",
+				"sqrMagnitude	Vector3.*"
+			],
+			[
+				"sig",
+				"sightingDeltaPos"
+			],
+			[
+				"ispatro",
+				"isPatrolling"
+			],
+			[
+				"Attac",
+				"Attacking"
+			],
+			[
+				"LastPlayer",
+				"LastPlayerSighting"
+			],
+			[
+				"routn",
+				"routeIndexes"
+			],
+			[
+				"rouin",
+				"routeIndexes"
+			],
+			[
+				"rout",
+				"routePoints"
+			],
+			[
+				"waypoint",
+				"waypoints"
+			],
+			[
+				"rou",
+				"route"
+			],
+			[
+				"main",
+				"main	Camera.*"
+			],
+			[
+				"GetMouse",
+				"GetMouseButton	Input.*(button)"
+			],
+			[
+				"hastr",
+				"hasThrowable"
+			],
+			[
+				"waypo",
+				"waypoints"
+			],
+			[
+				"waypoin",
+				"waypoints"
+			],
+			[
+				"Wait",
+				"WaitForSeconds	[class]"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "w",
+			"settings":
+			{
+				"buffer_size": 1,
+				"line_ending": "Unix",
+				"name": "w"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "omni",
+		"selected_items":
+		[
+			[
+				"omni",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"INST",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"om",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"them",
+				"Themr: List themes"
+			],
+			[
+				"the",
+				"Themr: List themes"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"emm",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"emme",
+				"Set Syntax: Emmet"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 529.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jorlu/Documents/Unity Projects/SuperGame/Assets/Scripts"
+	],
+	"file_history":
+	[
+		"/Users/jorlu/Documents/Unity Projects/SuperGame/Assets/Scripts/Thing.cs",
+		"/Users/jorlu/Documents/Unity Projects/SuperGame/Assets/Scripts/PauseManager.cs",
+		"/Users/jorlu/Documents/Unity Projects/SuperGame/Assets/Scripts/Player.cs",
+		"/Users/jorlu/Documents/Unity Projects/SuperGame/Assets/Scripts/Carrito.cs",
+		"/Users/jorlu/Documents/Unity Projects/SuperGame/Assets/Scripts/CubeScript.cs",
+		"/Users/jorlu/Documents/Unity Projects/SuperGame/SuperGame.sublime-project",
+		"/Users/jorlu/Documents/Unity Projects/SuperGame/Assets/Scripts/MenuBehaviours.cs",
+		"/Users/jorlu/Documents/Unity Projects/SuperGame/Assets/Scripts/Drifter/LockMouse.cs",
+		"/Users/jorlu/Documents/Unity Projects/SuperGame/Assets/Scripts/ThrowStuff.cs",
+		"/Users/jorlu/Desktop/Macopuertas-website/_config.yml",
+		"/Users/jorlu/Documents/Web Stuff/Macopuertas/Macopuertas-website/index.jade",
+		"/Users/jorlu/Documents/Unity Projects/TheSuperGame/TheSuperGame.sublime-project",
+		"/Users/jorlu/Documents/Unity Projects/IndieSwarm-Jam/Assets/Scripts/SpriteLookAtCamera.cs",
+		"/Users/jorlu/Documents/Unity Projects/IndieSwarm-Jam/Assets/Scripts/PauseManager.cs",
+		"/Users/jorlu/Documents/Unity Projects/IndieSwarm-Jam/Assets/Scripts/CubeScript.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer2.0/Assets/AlphaController.cs",
+		"/Users/jorlu/Documents/Unity Projects/IndieSwarm-Jam/IndieSwarm-Jam.sublime-project",
+		"/Users/jorlu/Documents/Unity Projects/IndieSwarmJam_CadaverExquisito/Assets/Scripts/CubeScript.cs",
+		"/Users/jorlu/Documents/Unity Projects/IndieSwarmJam_CadaverExquisito/Assets/Scripts/ThrowStuff.cs",
+		"/Users/jorlu/Documents/Unity Projects/IndieSwarmJam_CadaverExquisito/Assets/Scripts/MenuBehaviours.cs",
+		"/Users/jorlu/Documents/Unity Projects/IndieSwarmJam_CadaverExquisito/Assets/Scripts/PauseManager.cs",
+		"/Users/jorlu/Documents/Unity Projects/IndieSwarmJam_CadaverExquisito/Assets/First Person Drifter Controller/Scripts/Optional/CheckIfBelowLevel.cs",
+		"/Users/jorlu/Documents/Unity Projects/IndieSwarmJam_CadaverExquisito/IndieSwarmJam_CadaverExquisito.sublime-project",
+		"/Users/jorlu/Documents/Unity Projects/TranceZenDance/TranceZenDance.sublime-project",
+		"/Users/jorlu/Documents/Unity Projects/TranceZenDance/Assets/Scripts/ZenMeter.cs",
+		"/Users/jorlu/Documents/Unity Projects/TranceZenDance/Assets/Scripts/DancerController.cs",
+		"/Users/jorlu/Downloads/Parallax-on-the-Web-DevTips--0.0/js/functions.js",
+		"/Users/jorlu/Documents/Unity Projects/SlothishGame/.gitignore",
+		"/Users/jorlu/Documents/Web Stuff/IndieSwarm/index.html",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Player/PlayerInventory.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Player/PlayerController.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Items/KeyObject.cs",
+		"/Users/jorlu/Downloads/Under the Skin 2013 BluRay 1080p x264 DD5.1 FLiCKSiCK/FLiCKSiCK.nfo",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/LevelCreation/EnemyGeneration.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/LevelCreation/MapGeneration.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Managers/WinCondition.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/LevelCreation/RatsGeneration.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Player/PlayerHealth.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Enemy/Enemy.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Enemy/AtaqueEnemigo.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/TheEndgineer.sln",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Managers/PauseScript.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/LevelStuff/AlarmTrap.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/LevelStuff/Computer.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Managers/LoadLevel.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Managers/MainMenu.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/MainMenu.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Player/SoundPop.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Player/GameCamera.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Enemy/EnemySight.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Enemy/AlarmSystem.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Managers/Tags.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Rats/RatScript.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/TheEndgineer.sublime-project",
+		"/Users/jorlu/Library/Application Support/Sublime Text 3/Packages/User/UnityC#.sublime-settings",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/AtaqueEnemigo.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/theEndgineer.sublime-project",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Rock.cs",
+		"/Users/jorlu/Documents/Unity Projects/Respaldos TheEndgineer/TheEndgineer101214/Assets/Scripts/Enemy/EnemySight.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Managers/FloatingHUD.cs",
+		"/Users/jorlu/Documents/Unity Projects/WhatNow/Assets/Scripts/HUDscript.cs",
+		"/Users/jorlu/Downloads/unityglitch-master/README",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Enemy/Life.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Player/PauseScript.cs",
+		"/Users/jorlu/Documents/Unity Projects/Kaleidoscope/Assets/Menu/MenuManager.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/.gitignore",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Apex/Apex Path/Scripts/GameState/GameStateManagerSelection.cs",
+		"/Users/jorlu/Kaleidoscope/Assets/Menu/MenuManager.cs",
+		"/Users/jorlu/Kaleidoscope/Assets/Menu/LoadScene.cs",
+		"/Users/jorlu/Kaleidoscope/Assets/LoadScene.cs",
+		"/Users/jorlu/Documents/Jorlu.com/Tema Jorlu.com/anima/default.hbs",
+		"/Users/jorlu/Documents/Jorlu.com/themeforest-9601972-anima-multipurpose-ghost-theme/anima/partials/menu.hbs",
+		"/Users/jorlu/Kaleidoscope/Assets/Scripts/GameManager.cs",
+		"/Users/jorlu/Kaleidoscope/Assets/GameManager.cs",
+		"/Users/jorlu/Kaleidoscope/Assets/RingSpin.cs",
+		"/Users/jorlu/Downloads/themeforest-9601972-anima-multipurpose-ghost-theme/anima/partials/menu.hbs",
+		"/Users/jorlu/Kaleidoscope/Assets/KaleidoscopeEffect/readme.txt",
+		"/Users/jorlu/Documents/Unity Projects/LigueStrap/Assets/TouchEvents.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Enemy/Sight.cs",
+		"/Users/jorlu/Documents/Unity Projects/LigueStrap/Assets/OnDrag.cs",
+		"/Users/jorlu/Documents/Unity Projects/2DStuff/Assets/Scripts/Player.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/UnitMessages.cs",
+		"/Users/jorlu/Adlm/AdlmUserSettings.xml",
+		"/Users/jorlu/Downloads/pp.svg",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Enemy/EnemyAI.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Enemy/EnemyAttack.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Items/MakeNoise.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/LevelCreation/WaypointsGeneration.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Managers/LastPlayerSighting.cs",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/Assets/Scripts/Enemy/PathGenerator.cs",
+		"/Users/jorlu/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/jorlu/Documents/Unity Projects/TheEndgineer/endgineer.sublime-project",
+		"/C/Users/TheJorlu/Documents/Unity Projects/PuebaEnemigos/Assets/Scripts/MapGeneration.cs",
+		"/C/Users/TheJorlu/Documents/Unity Projects/TheEndgineer08092014/Assets/Scripts/PlayerController.cs",
+		"/C/Users/TheJorlu/Documents/Unity Projects/7DFPS/Temp/Compiled-Normal-Diffuse-Win.shader",
+		"/C/Users/TheJorlu/Documents/Unity Projects/TheEndgineer08092014/Assets/Scripts/GameCamera.cs",
+		"/C/Users/TheJorlu/Documents/Unity Projects/TheEndgineer08092014/Assets/Scripts/MapGeneration.cs",
+		"/C/Users/TheJorlu/Documents/Unity Projects/PuebaEnemigos/Assets/Scripts/SampleAgentScript.cs",
+		"/C/Users/TheJorlu/Documents/Unity Projects/7DFPS/Temp/ParsedCombinations-Normal-Diffuse.shader",
+		"/C/Users/TheJorlu/Documents/Unity Projects/PuebaEnemigos/Assets/ProCoreCompleteBundle/!!README.txt",
+		"/C/Users/TheJorlu/Documents/Unity Projects/ClaseCharly/Assets/Scripts/PlayerHP.cs",
+		"/C/Users/TheJorlu/Documents/Unity Projects/TheEndgineer08092014/Assets/Scripts/GameCamera2.cs",
+		"/C/Users/TheJorlu/Documents/Unity Projects/Karts&Crafts_20140325/Assets/Scripts/CarController.cs",
+		"/C/Users/TheJorlu/Documents/Unity Projects/TheEndgineer08092014/Assets/Scripts/PlayerMovement.cs",
+		"/C/Users/TheJorlu/Documents/Unity Projects/Karts&Crafts_20140325/Assets/Scripts/GameLogic.cs",
+		"/C/Users/TheJorlu/Documents/Unity Projects/Karts&Crafts_20140325/Assets/Scripts/AudioListenerPosition.cs",
+		"/C/Users/TheJorlu/Documents/Unity Projects/Karts&Crafts_20140325/Assets/Scripts/AI/MinionArrowScript.cs",
+		"/C/Users/TheJorlu/Documents/Unity Projects/TheEndgineer08092014/TheEndgineer.sublime-project",
+		"/C/Users/TheJorlu/Documents/Unity Projects/Mamastrof/Assets/Scripts/Prueba.cs",
+		"/C/Users/TheJorlu/Documents/Unity Projects/Mamastrof/Assets/Scripts/Prooeba.cs",
+		"/C/Users/TheJorlu/Documents/Unity Projects/Mamastrof/Mamastrof.sublime-project",
+		"/C/Users/TheJorlu/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"Scripts/",
+			"file:/Users/jorlu/Documents/Unity Projects/SuperGame/Assets/Scripts",
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Thing",
+			"GameObject",
+			"Thing",
+			"ManipulateStuff",
+			"HoldStuff",
+			"CursoR",
+			"Cursos",
+			"meterScript.meter.fillAmount += 0.001f;",
+			"0001f",
+			"Leg",
+			"Force",
+			"force",
+			"hitForce",
+			"GetKey",
+			"GetKeyDown",
+			"Random.onUnitSphere",
+			"left",
+			".\n",
+			"numberOfEnemies",
+			"cam",
+			"public",
+			"\"Dead\"",
+			"_animator",
+			"paramName",
+			"_animator",
+			"white",
+			"playerinsi",
+			"stealTimer",
+			"timer",
+			"1",
+			"lastpla",
+			"x",
+			"const",
+			"hask",
+			"backwards",
+			"}\n",
+			"minion"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"auto_name": "w",
+							"default_dir": "/Users/jorlu/Documents/Unity Projects/SuperGame/Assets/Scripts",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 27.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 25.0
+	},
+	"pinned_build_system": "",
+	"project": "SuperGame.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"thi",
+				"Thing.cs"
+			],
+			[
+				"pl",
+				"Player.cs"
+			],
+			[
+				"pla",
+				"Player.cs"
+			],
+			[
+				"lo",
+				"Drifter/LockMouse.cs"
+			],
+			[
+				"p",
+				"Player.cs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
