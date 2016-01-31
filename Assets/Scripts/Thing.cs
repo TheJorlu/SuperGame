@@ -38,8 +38,8 @@ public class Thing : MonoBehaviour
 	void Start()
 	{
 		GameManager.instance.propsOnScene[(int)objeto][0]++;
-		// audio = GetComponent<AudioSource>();
-		// audio.spatialize = true;
+		audio = GetComponent<AudioSource>();
+		audio.spatialBlend = 1;
 	}
 
 	void OnTriggerEnter(Collider col)
@@ -52,7 +52,7 @@ public class Thing : MonoBehaviour
 
 	void OnCollisionEnter()
 	{
-//		audio.PlayOneShot(clips[(int)objeto]);
+		//audio.PlayOneShot(AudioManager.instance.sfx[(int)objeto]);
 	}
 
 	public void AttachToObject(Transform parent)

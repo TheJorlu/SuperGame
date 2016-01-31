@@ -7,9 +7,15 @@ public class MenuBehaviours : MonoBehaviour {
 	public GameObject MainPanel;
 	public GameObject CreditsPanel;
 
+	void Awake()
+	{
+		Cursor.visible = true;
+		Cursor.lockState = CursorLockMode.None;
+	}
+
 	public void LoadMainGame()
 	{
-		Application.LoadLevel("Main");
+		Application.LoadLevelAsync("Main");
 	}
 
 	public void ExitGame()

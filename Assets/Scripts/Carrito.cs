@@ -28,9 +28,16 @@ public class Carrito : MonoBehaviour
 	{
 		if(col.transform.tag == "Finish" && GameManager.instance.done)
 		{
-			Debug.Log("A WINNER IS YOU!!!!");
-			Application.LoadLevel(0);
+			GameManager.instance.ending.SetActiveRecursively(true);
+			StartCoroutine(EndAfterSeconds());
 		}
+	}
+
+	IEnumerator EndAfterSeconds()
+	{
+		yield return new WaitForSeconds(3);
+
+		Application.LoadLevel(0);
 	}
 
 	void OnCollisionEnter(Collision col)

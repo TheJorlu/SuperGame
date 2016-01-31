@@ -3,7 +3,9 @@ using System.Collections;
 
 public class AudioManager : MonoBehaviour 
 {
+	public static AudioManager instance;
+
 	public AudioClip[] sfx;
 
-	private AudioSource sfxSource;
+	void Awake(){instance=this;}
 }

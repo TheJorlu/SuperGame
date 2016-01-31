@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
 	public List<int> toDoList = new List<int>();
 
 	public bool done;
+	public GameObject ending;
 
 	void Awake()
 	{

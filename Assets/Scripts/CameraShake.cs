@@ -21,8 +21,9 @@ public class CameraShake : MonoBehaviour
 	private Vector3 initialPosition;
 	private bool isShaking;
 	
-	void Start()
+	IEnumerator Start()
 	{
+		yield return new WaitForSeconds(1);
 		initialPosition = transform.localPosition;
 	}
 	
