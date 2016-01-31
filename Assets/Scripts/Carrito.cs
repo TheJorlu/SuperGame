@@ -26,11 +26,17 @@ public class Carrito : MonoBehaviour
 
 	void OnTriggerEnter(Collider col)
 	{
-		if(col.transform.tag == "Finish")
+		if(col.transform.tag == "Finish" && GameManager.instance.done)
 		{
 			Debug.Log("A WINNER IS YOU!!!!");
 			Application.LoadLevel(0);
 		}
+	}
+
+	void OnCollisionEnter(Collision col)
+	{
+		if(col.transform.tag == "Grabbable")
+			CameraShake.instance.Shake(.1f,.1f);
 	}
 
 	void OnMouseDown()

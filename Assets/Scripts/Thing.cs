@@ -3,7 +3,6 @@ using System.Collections;
 
 [RequireComponent(typeof(BoxCollider))]
 [RequireComponent(typeof(Rigidbody))]
-[RequireComponent(typeof(AudioSource))]
 public class Thing : MonoBehaviour 
 {
 	public Objeto objeto;
@@ -29,12 +28,18 @@ public class Thing : MonoBehaviour
 		Rompope = 17
 	}
 
+	public AudioClip[] clips;
+
+	private AudioSource audio;
+
 	[HideInInspector]
 	public bool held;
 
 	void Start()
 	{
 		GameManager.instance.propsOnScene[(int)objeto][0]++;
+		// audio = GetComponent<AudioSource>();
+		// audio.spatialize = true;
 	}
 
 	void OnTriggerEnter(Collider col)
@@ -47,7 +52,7 @@ public class Thing : MonoBehaviour
 
 	void OnCollisionEnter()
 	{
-		GetComponent<AudioSource>().Play();
+//		audio.PlayOneShot(clips[(int)objeto]);
 	}
 
 	public void AttachToObject(Transform parent)
