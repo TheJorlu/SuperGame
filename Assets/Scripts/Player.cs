@@ -25,8 +25,11 @@ public class Player : MonoBehaviour
 			{
 				Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 		        RaycastHit hit;
+		        
+		        LayerMask mask = 8;
+		        mask = ~mask;
 
-		        if (Physics.Raycast(ray, out hit, 3)) 
+		        if (Physics.Raycast(ray, out hit, 5, mask)) 
 		        {
 		            if(hit.transform.tag == "Grabbable" || hit.transform.tag == "Carrito")
 		            {
@@ -40,6 +43,11 @@ public class Player : MonoBehaviour
 			if(holdingObject)
 			{
 				ThrowStuff();
+
+				foreach  (Thing thing in Carrito.instance.things) 
+				{
+					thing.gameObject.layer = 0;
+				}
 			}
 		}
 	}
@@ -72,6 +80,13 @@ public class Player : MonoBehaviour
 			carritoCam.SetActive(false);
 		}
 
+		holdingObject = false;
+		heldObject = null;
+	}
+
+	public void LetGo()
+	{
+		heldObject.transform.parent = null;
 		holdingObject = false;
 		heldObject = null;
 	}

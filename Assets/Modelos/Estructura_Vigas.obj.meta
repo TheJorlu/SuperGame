@@ -7,11 +7,16 @@ ModelImporter:
   fileIDToRecycleName:
     100000: Estructura_Vigas
     100002: //RootNode
+    100004: Estructura_VigaI1
     400000: Estructura_Vigas
     400002: //RootNode
+    400004: Estructura_VigaI1
     2300000: Estructura_Vigas
+    2300002: Estructura_VigaI1
     3300000: Estructura_Vigas
+    3300002: Estructura_VigaI1
     4300000: Estructura_Vigas
+    4300002: Estructura_VigaI1
   materials:
     importMaterials: 0
     materialName: 0

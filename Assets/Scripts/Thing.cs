@@ -17,6 +17,7 @@ public class Thing : MonoBehaviour
 	{
 		if(col.transform.tag == "CarritoBox")
 		{
+			Player.instance.LetGo();
     		Carrito.instance.AddThing(this);
 		}
 	}
