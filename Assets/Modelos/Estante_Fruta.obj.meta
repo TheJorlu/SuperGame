@@ -8,15 +8,20 @@ ModelImporter:
     100000: //RootNode
     100002: Estante_Fruta2
     100004: Estante_Fruta2_EstantesExport
+    100006: Estante_Fruta:polySurface1
     400000: //RootNode
     400002: Estante_Fruta2
     400004: Estante_Fruta2_EstantesExport
+    400006: Estante_Fruta:polySurface1
     2300000: Estante_Fruta2
     2300002: Estante_Fruta2_EstantesExport
+    2300004: Estante_Fruta:polySurface1
     3300000: Estante_Fruta2
     3300002: Estante_Fruta2_EstantesExport
+    3300004: Estante_Fruta:polySurface1
     4300000: Estante_Fruta2
     4300002: Estante_Fruta2_EstantesExport
+    4300004: Estante_Fruta:polySurface1
   materials:
     importMaterials: 0
     materialName: 0

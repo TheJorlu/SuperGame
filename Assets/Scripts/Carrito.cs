@@ -2,33 +2,38 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class Carrito : Thing 
+public class Carrito : MonoBehaviour 
 {
 	public static Carrito instance;
 	public Transform box;
+	public GameObject carritoCam;
 
 	public List<Thing> things = new List<Thing>();
 
 	void Awake(){instance = this;}
 
-	// void LateUpdate()
-	// // {
-	// // 	if(this.transform.position.y < 0.5f)
-	// // 	{
-	// // 		rigidbody.velocity = Vector3.zero;
-	// // 		rigidbody.angularVelocity = Vector3.zero;
-	// // 		rigidbody.AddForce(Vector3.up);
-	// // 	}
-	// }
-
-	public override void AttachToObject(Transform parent)
+	void LateUpdate()
 	{
-		transform.SetParent(parent);
-		//transform.localPosition = new Vector3(0,-.5f,1.4f);
-		foreach  (Thing thing in things) 
+		if(transform.position.y < 0.5f)
 		{
-			thing.gameObject.layer = 8;
+			transform.position = new Vector3(transform.position.x, 0.5f, transform.position.z);
 		}
+		else if(transform.position.y > 0.55f)
+		{
+			transform.position = new Vector3(transform.position.x, 0.5f, transform.position.z);
+		}
+	}
+
+	void OnMouseDown()
+	{
+		transform.parent = Player.instance.transform;
+		carritoCam.SetActive(true);
+	}
+
+	void OnMouseUp()
+	{
+		transform.parent = null;
+		carritoCam.SetActive(false);
 	}
 
 	public void AddThing(Thing thing)
@@ -36,12 +41,14 @@ public class Carrito : Thing
 		if(!things.Contains(thing))
 		{
 			things.Add(thing);
-
+			Player.instance.LetGo();
 			
-			thing.rigidbody.isKinematic = true;
+			thing.GetComponent<Rigidbody>().isKinematic = true;
 
 			thing.transform.position = box.position;
 			thing.transform.parent = box;
+
+			GameManager.instance.CheckForGoal((int)thing.objeto);
 		}
 	}
 }

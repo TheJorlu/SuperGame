@@ -7,11 +7,16 @@ ModelImporter:
   fileIDToRecycleName:
     100000: Estructura_Building
     100002: //RootNode
+    100004: Estructura_Building:Estructura_Building
     400000: Estructura_Building
     400002: //RootNode
+    400004: Estructura_Building:Estructura_Building
     2300000: Estructura_Building
+    2300002: Estructura_Building:Estructura_Building
     3300000: Estructura_Building
+    3300002: Estructura_Building:Estructura_Building
     4300000: Estructura_Building
+    4300002: Estructura_Building:Estructura_Building
   materials:
     importMaterials: 0
     materialName: 0

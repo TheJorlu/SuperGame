@@ -7,11 +7,16 @@ ModelImporter:
   fileIDToRecycleName:
     100000: Estante_Isla
     100002: //RootNode
+    100004: Estante_Isla:Estante_Isla
     400000: Estante_Isla
     400002: //RootNode
+    400004: Estante_Isla:Estante_Isla
     2300000: Estante_Isla
+    2300002: Estante_Isla:Estante_Isla
     3300000: Estante_Isla
+    3300002: Estante_Isla:Estante_Isla
     4300000: Estante_Isla
+    4300002: Estante_Isla:Estante_Isla
   materials:
     importMaterials: 0
     materialName: 0

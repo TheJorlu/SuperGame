@@ -3,48 +3,70 @@ using System.Collections;
 
 [RequireComponent(typeof(BoxCollider))]
 [RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(AudioSource))]
 public class Thing : MonoBehaviour 
 {
+	public Objeto objeto;
+	public enum Objeto
+	{
+		Garrafon = 0,
+		Vino = 1,
+		Tequila = 2,
+		Chupe = 3,
+		Cereal = 4,
+		Galletas = 5,
+		Condones = 6,
+		Regalo = 7,
+		Medicina = 8,
+		Leche = 9,
+		Chocolate = 10,
+		Papas = 11,
+		Platano = 12,
+		Manzana = 13,
+		Naranga = 14,
+		Sandia = 15,
+		Licor = 16,
+		Rompope = 17
+	}
+
 	[HideInInspector]
-	public Rigidbody rigidbody;
+	public bool held;
 
 	void Start()
 	{
-		rigidbody = GetComponent<Rigidbody>();
+		GameManager.instance.propsOnScene[(int)objeto][0]++;
 	}
 
 	void OnTriggerEnter(Collider col)
 	{
-		if(col.transform.tag == "CarritoBox")
+		if(col.transform.tag == "CarritoBox" && held)
 		{
-			Player.instance.LetGo();
     		Carrito.instance.AddThing(this);
 		}
 	}
 
-	void OnTriggerExit(Collider col)
+	void OnCollisionEnter()
 	{
-		if(col.transform.tag == "Carrito")
-		{
-			rigidbody.velocity = Vector3.zero;
-    		rigidbody.angularVelocity = Vector3.zero; 
-    		Carrito.instance.things.Remove(this);
-		}
+		GetComponent<AudioSource>().Play();
 	}
 
-	public virtual void AttachToObject(Transform parent)
+	public void AttachToObject(Transform parent)
 	{
-		rigidbody.isKinematic = true;
+		GetComponent<Rigidbody>().isKinematic = true;
+		gameObject.layer = 8;
 
 		transform.SetParent(parent);
+		held = true;
 	}
 
 	public void ThrowSelf(Vector3 direction)
 	{
-		rigidbody.isKinematic = false;
+		GetComponent<Rigidbody>().isKinematic = false;
+		gameObject.layer = 8;
 
 		transform.SetParent(null);
+		held = false;
 
-		rigidbody.AddForce(direction);
+		GetComponent<Rigidbody>().AddForce(direction);
 	}
 }

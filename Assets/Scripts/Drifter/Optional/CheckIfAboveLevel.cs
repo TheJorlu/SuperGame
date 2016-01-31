@@ -29,8 +29,8 @@ public class CheckIfAboveLevel : MonoBehaviour
 	private void OnBelowLevel()
 	{
 		Debug.Log("Player fell below level");
-		Carrito.instance.rigidbody.velocity = Vector3.zero;
-		Carrito.instance.rigidbody.angularVelocity = Vector3.zero;
+		Carrito.instance.GetComponent<Rigidbody>().velocity = Vector3.zero;
+		Carrito.instance.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
 
 		// Player.instance.GetComponent<Rigidbody>().velocity = Vector3.zero;
 		// Player.instance.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;

@@ -7,11 +7,16 @@ ModelImporter:
   fileIDToRecycleName:
     100000: //RootNode
     100002: Roof
+    100004: Estructura_Roof:Roof
     400000: //RootNode
     400002: Roof
+    400004: Estructura_Roof:Roof
     2300000: Roof
+    2300002: Estructura_Roof:Roof
     3300000: Roof
+    3300002: Estructura_Roof:Roof
     4300000: Roof
+    4300002: Estructura_Roof:Roof
   materials:
     importMaterials: 0
     materialName: 0

@@ -8,15 +8,25 @@ ModelImporter:
     100000: Estante_RefiPared2
     100002: //RootNode
     100004: Estante_RefiParedBajo_EstantesExport
+    100006: Estante_RefriPared:polySurface1
+    100008: modelPanel4ViewSelectedSet_Estante_RefriPared:polySurface1
     400000: Estante_RefiPared2
     400002: //RootNode
     400004: Estante_RefiParedBajo_EstantesExport
+    400006: Estante_RefriPared:polySurface1
+    400008: modelPanel4ViewSelectedSet_Estante_RefriPared:polySurface1
     2300000: Estante_RefiPared2
     2300002: Estante_RefiParedBajo_EstantesExport
+    2300004: Estante_RefriPared:polySurface1
+    2300006: modelPanel4ViewSelectedSet_Estante_RefriPared:polySurface1
     3300000: Estante_RefiPared2
     3300002: Estante_RefiParedBajo_EstantesExport
+    3300004: Estante_RefriPared:polySurface1
+    3300006: modelPanel4ViewSelectedSet_Estante_RefriPared:polySurface1
     4300000: Estante_RefiPared2
     4300002: Estante_RefiParedBajo_EstantesExport
+    4300004: Estante_RefriPared:polySurface1
+    4300006: modelPanel4ViewSelectedSet_Estante_RefriPared:polySurface1
   materials:
     importMaterials: 0
     materialName: 0

@@ -7,11 +7,21 @@ ModelImporter:
   fileIDToRecycleName:
     100000: Estante_Caja
     100002: //RootNode
+    100004: Estante_Caja:Estante_Caja
+    100006: modelPanel4ViewSelectedSet_Estante_Caja:Estante_Caja
     400000: Estante_Caja
     400002: //RootNode
+    400004: Estante_Caja:Estante_Caja
+    400006: modelPanel4ViewSelectedSet_Estante_Caja:Estante_Caja
     2300000: Estante_Caja
+    2300002: Estante_Caja:Estante_Caja
+    2300004: modelPanel4ViewSelectedSet_Estante_Caja:Estante_Caja
     3300000: Estante_Caja
+    3300002: Estante_Caja:Estante_Caja
+    3300004: modelPanel4ViewSelectedSet_Estante_Caja:Estante_Caja
     4300000: Estante_Caja
+    4300002: Estante_Caja:Estante_Caja
+    4300004: modelPanel4ViewSelectedSet_Estante_Caja:Estante_Caja
   materials:
     importMaterials: 0
     materialName: 0

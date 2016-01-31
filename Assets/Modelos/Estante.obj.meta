@@ -7,11 +7,16 @@ ModelImporter:
   fileIDToRecycleName:
     100000: Estante
     100002: //RootNode
+    100004: Estante3
     400000: Estante
     400002: //RootNode
+    400004: Estante3
     2300000: Estante
+    2300002: Estante3
     3300000: Estante
+    3300002: Estante3
     4300000: Estante
+    4300002: Estante3
   materials:
     importMaterials: 0
     materialName: 0
