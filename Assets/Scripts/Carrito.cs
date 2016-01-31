@@ -24,6 +24,15 @@ public class Carrito : MonoBehaviour
 		}
 	}
 
+	void OnTriggerEnter(Collider col)
+	{
+		if(col.transform.tag == "Finish")
+		{
+			Debug.Log("A WINNER IS YOU!!!!");
+			Application.LoadLevel(0);
+		}
+	}
+
 	void OnMouseDown()
 	{
 		transform.parent = Player.instance.transform;

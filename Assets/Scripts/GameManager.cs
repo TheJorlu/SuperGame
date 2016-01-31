@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
 	public List<List <int>> propsOnScene = new List<List <int>>();
 	public List<int> toDoList = new List<int>();
 
+	public bool done;
+
 	void Awake()
 	{
 		instance=this;
@@ -24,20 +26,10 @@ public class GameManager : MonoBehaviour
 		}
 	}
 
-	void Update()
+	IEnumerator Start()
 	{
-		if(Input.GetKeyDown(KeyCode.Q))
-		{
-			for(int i=0; i < propsOnScene.Count; i++)
-			{
-				for(int j=0; j < propsOnScene[i].Count; j++)
-				{
-					Debug.Log("Item: " + i + " Cantidad: " + propsOnScene[i][j]);
-				}
-			}
-
-			GenerateList();
-		}
+		yield return new WaitForSeconds(.1f);
+		GenerateList();
 	}
 
 	void GenerateList()
@@ -52,6 +44,8 @@ public class GameManager : MonoBehaviour
 				propsOnScene[x][0]--;
 			}
 		}
+
+		HUDManager.instance.SetupHUD();		
 	}
 
 	public void CheckForGoal(int thingIndex)
@@ -62,12 +56,19 @@ public class GameManager : MonoBehaviour
 		{
 			if(toDoList[i] == thingIndex)
 			{
-				Debug.Log("Object in list: " + i);
+				Debug.Log("Object position: " + i);
+				Debug.Log("Object in list: " + toDoList[i]);
 
-				toDoList.Remove(i);
+				toDoList.RemoveAt(i);
 				Debug.Log(toDoList.Count + " Items left");
+
+				HUDManager.instance.MarkItem(i);
 				break;
 			}
+		}
+		if(toDoList.Count <= 0)
+		{
+			done = true;
 		}
 	}
 }
